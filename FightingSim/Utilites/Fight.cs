@@ -42,8 +42,6 @@ namespace FightingSim.Utilites
 
         private BaseFighter Clash(BaseFighter first, BaseFighter second)
         {
-            first.HitPoints = default;
-            second.HitPoints = default;
 
             Console.WriteLine($"{first.Name} vs. {second.Name}");
 
