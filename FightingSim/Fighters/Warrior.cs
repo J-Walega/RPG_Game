@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FightingSim.Interface;
-using FightingSim.Utilites;
+﻿using System.Collections.Generic;
 
 namespace FightingSim.Fighters
 {
@@ -11,7 +7,9 @@ namespace FightingSim.Fighters
         public Warrior()
         {
             Profession = "Warrior";
-            Moves.Add(new KeyValuePair<string, int>("Bash", 4));
+            Moves.Add(new KeyValuePair<string, int>("Bash", 8));
+            DodgeChance = 10;
+            SkillStrength = 1.5;
         }
     }
 }

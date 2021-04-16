@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace FightingSim.Fighters
 {
@@ -9,6 +7,9 @@ namespace FightingSim.Fighters
         public Barbarian()
         {
             Profession = "Barbarian";
+            Moves.Add(new KeyValuePair<string, int>("Swing", 10));
+            DodgeChance = 5;
+            SkillStrength = 2;
         }
     }
 }

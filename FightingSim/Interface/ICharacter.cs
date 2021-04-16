@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace FightingSim.Interface
 {
@@ -10,5 +8,7 @@ namespace FightingSim.Interface
         int HitPoints { get; set; }
         List<KeyValuePair<string, int>> Moves { get; set; }
         string Profession { get; set; }
+        int DodgeChance { get; set; }
+        double SkillStrength { get; set; }
     }
 }
